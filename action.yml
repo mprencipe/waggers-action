@@ -1,0 +1,11 @@
+name: 'Waggers'
+description: 'Swagger fuzzing'
+inputs:
+  url:
+    description: 'URL of Swagger description'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.url }}
