@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# waggers-action
-=======
 # Waggers Swagger fuzzing
 
 An action for fuzzing Swagger endpoints.
@@ -22,4 +19,3 @@ The author does not take any responsibility for the use of this action.
 # License
 
 The scripts and documentation in this project are released under the [MIT License](LICENSE)
->>>>>>> 6e43830 (First commit)
