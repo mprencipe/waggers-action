@@ -11,6 +11,7 @@ steps:
 - uses: mprencipe/waggers-action@SHA
   with:
     url: https://url/swagger-endpoint.json
+    fuzzcount: 3
 ```
 
 # Disclaimer
