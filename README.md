@@ -1,4 +1,4 @@
-# Waggers Swagger fuzzing
+# waggers-action
 
 An action for fuzzing Swagger endpoints.
 
