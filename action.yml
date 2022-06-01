@@ -4,8 +4,12 @@ inputs:
   url:
     description: 'URL of Swagger description'
     required: true
+  fuzzcount:
+    description: 'How many times should an URL path be fuzzed. The default is 1.'
+    required: false
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
     - ${{ inputs.url }}
+    - ${{ inputs.fuzzcount }}
