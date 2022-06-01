@@ -8,7 +8,7 @@ See [action.yml](action.yml)
 
 ```yaml
 steps:
-- uses: mprencipe/waggers-action@SHA
+- uses: mprencipe/waggers-action@v1
   with:
     url: https://url/swagger-endpoint.json
     fuzzcount: 3
