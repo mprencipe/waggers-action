@@ -1,4 +1,4 @@
-name: 'Waggers'
+name: 'waggers-action'
 description: 'Swagger fuzzing'
 inputs:
   url:
