@@ -1,5 +1,8 @@
 name: 'waggers-action'
 description: 'Swagger fuzzing'
+branding:
+  icon: 'shield-off'
+  color: 'red'
 inputs:
   url:
     description: 'URL of Swagger description'
