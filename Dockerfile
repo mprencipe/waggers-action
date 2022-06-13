@@ -1,11 +1,10 @@
-FROM golang:1.17
+FROM debian:stable-slim
 
 WORKDIR /
 
-RUN git clone https://github.com/mprencipe/waggers.git &&\
-    cd waggers && \
-    go get && \
-    go build
+RUN  apt-get update \
+  && apt-get install -y wget \
+  && rm -rf /var/lib/apt/lists/*
 
 COPY entrypoint.sh /entrypoint.sh
 
