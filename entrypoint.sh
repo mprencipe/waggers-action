@@ -7,7 +7,7 @@ FUZZCOUNT="${2:-1}"
 
 touch fuzz.txt
 
-wget https://github.com/mprencipe/waggers/releases/download/v1.0.0/waggers_1.0.0_linux_amd64.tar.gz
+wget -q https://github.com/mprencipe/waggers/releases/download/v1.0.0/waggers_1.0.0_linux_amd64.tar.gz
 tar -xvf waggers_1.0.0_linux_amd64.tar.gz
 chmod 500 waggers
 
