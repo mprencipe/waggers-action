@@ -10,9 +10,13 @@ inputs:
   fuzzcount:
     description: 'How many times should an URL path be fuzzed. The default is 1.'
     required: false
+  headers:
+    description: 'Custom HTTP headers separated by comma.'
+    required: false
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
     - ${{ inputs.url }}
     - ${{ inputs.fuzzcount }}
+    - ${{ inputs.headers }}

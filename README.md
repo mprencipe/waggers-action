@@ -12,6 +12,7 @@ steps:
   with:
     url: https://url/swagger-endpoint.json
     fuzzcount: 3
+    headers: 'user-agent: foobar, someheader: somevalue'
 ```
 
 # Disclaimer
