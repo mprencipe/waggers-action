@@ -8,8 +8,8 @@ HEADERS="${3:-1}"
 
 touch fuzz.txt
 
-wget -q https://github.com/mprencipe/waggers/releases/download/v1.0.1/waggers-v1.0.1-linux-amd64.tar.gz
-tar -xvf waggers-v1.0.1-linux-amd64.tar.gz
+wget -q https://github.com/mprencipe/waggers/releases/download/v1.0.2/waggers-v1.0.2-linux-amd64.tar.gz
+tar -xvf waggers-v1.0.2-linux-amd64.tar.gz
 chmod 500 waggers
 
 ./waggers -dryrun=false -file=fuzz.txt -fuzzcount=$FUZZCOUNT -headers=$HEADERS $URL
